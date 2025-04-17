@@ -1,6 +1,6 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import japanize_matplotlib  # 日本語表示用
+
 
 def simulate_battery(battery_drain_per_day, driving_days_interval, driving_hours_per_day, charging_rate_per_hour=10):
     days = 90
