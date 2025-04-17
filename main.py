@@ -19,7 +19,7 @@ def simulate_battery(battery_drain_per_day, driving_days_interval, driving_hours
     return battery_history
 
 # Streamlit UI
-st.title("📱 スマホバッテリーシミュレーター（3ヶ月間）")
+st.title("📱 スマホバッテリーシミュレーション")
 
 battery_drain_per_day = st.slider("1日あたりのバッテリー消費量（%）", 0, 30, 5)
 driving_days_interval = st.slider("運転する間隔（日）", 1, 14, 2)
